@@ -25,7 +25,7 @@ const Container = styled.div`
 `;
 
 const MainContent = styled.div`
-  flex-basis: 70%;
+  flex-basis: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -620,7 +620,7 @@ const defaultValues = {
 
 const Main = ({ loading, response, handleSubmit, handleChange, email }) => (
   <MainContent>
-    <Title>⭐️ Travel Planner ⭐️</Title>
+    <Title>Jawlat Travel Planner </Title>
     {!response && <Subtitle>Fill the form to generate your itinerary</Subtitle>}
 
     <ResponseContainer>

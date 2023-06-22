@@ -44,6 +44,7 @@ const MainContent = styled.div`
   color: #fff;
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
 
   animation: gradient 15s ease infinite;
   @keyframes gradient {
@@ -394,7 +395,7 @@ const InterestEmoji = styled.span`
 
 const Panel = styled.div`
   display: flex;
-  flex-basis: 30%;
+  flex-basis: 50%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -411,6 +412,7 @@ const Panel = styled.div`
     flex-basis: calc(40% - 2.2rem);
     width: calc(40% - 2.2rem);
     position: relative;
+    overflow-y: scroll;
   }
 
   @media (max-width: 768px) {
@@ -418,7 +420,7 @@ const Panel = styled.div`
     margin: 0 auto;
   }
 
-  @media (max-height: 500px) {
+  @media (max-height: 5000px) {
     width: calc(100% - 2rem);
     margin: 0 auto;
     overflow-y: scroll;
@@ -601,8 +603,8 @@ const options = {
 
 const topLocations = [
   { name: "Jeddah, Saudi Arabia", value: "Jeddah/Saudi" },
-  { name: "Beirut, Lebanon", value: "Beirut/Lebanon" },
   { name: "Paris, France", value: "Paris/France" },
+  { name: "Los Angeles, CA", value: "Los Angeles/California" },
   // add more top locations as needed
 ];
 

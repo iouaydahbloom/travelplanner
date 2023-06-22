@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import styled from "styled-components";
+import Mylogo from "./Mylogo";
 
 const Container = styled.div`
   display: flex;
@@ -620,6 +621,7 @@ const defaultValues = {
 
 const Main = ({ loading, response, handleSubmit, handleChange, email }) => (
   <MainContent>
+    <Mylogo />
     <Title>Jawlat Travel Planner </Title>
     {!response && <Subtitle>Fill the form with your preferences to generate your itinerary</Subtitle>}
 

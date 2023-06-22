@@ -40,7 +40,7 @@ const MainContent = styled.div`
     #444444,
     #555555
   );
-  background-size: 400% 400%;
+  background-size: 100% 100%;
   color: #fff;
   width: 100%;
   height: 100%;
@@ -61,8 +61,8 @@ const MainContent = styled.div`
     }
   }
 
-  @media screen and (max-width: 1320px) {
-    flex-basis: 60%;
+  @media screen and (max-width: 3060px) {
+    flex-basis: 75%;
   }
 
   @media (max-width: 768px) {
@@ -600,9 +600,9 @@ const options = {
 };
 
 const topLocations = [
-  { name: "Milano, Italy", value: "Milano/Italy" },
+  { name: "Jeddah, Saudi Arabia", value: "Jeddah/Saudi" },
+  { name: "Beirut, Lebanon", value: "Beirut/Lebanon" },
   { name: "Paris, France", value: "Paris/France" },
-  { name: "Los Angeles, CA", value: "Los Angeles/California" },
   // add more top locations as needed
 ];
 
